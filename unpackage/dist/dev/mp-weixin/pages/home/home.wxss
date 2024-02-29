@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #f5f5f5;
+}
+.head_bg {
+  width: 100%;
+  height: 185rpx;
+  border-bottom-right-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+}
+.head_bg image {
+  width: 100%;
+  border-bottom-right-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+}
+.swiper {
+  height: 330rpx;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+}
+swiper .swiper-item,
+swiper image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+/* 未选中点的样式 */
+.wx-swiper-dot {
+  width: 5rpx;
+  height: 5rpx;
+  background: #FFE4CF !important;
+  margin-left: -8rpx;
+}
+/* 激活样式 */
+.wx-swiper-dot-active {
+  width: 28rpx !important;
+  height: 5rpx;
+  background: linear-gradient(-30deg, #69e4e9 0%, #69e4e9 100%) !important;
+  border-radius: 10rpx !important;
+}
+.wx-swiper-dots {
+  position: relative;
+}
+/*水平指示器*/
+.wx-swiper-dots.wx-swiper-dots-horizontal {
+  margin-bottom: -15rpx;
+}
+/* 功能列表区域 */
+.fun {
+  display: flex;
+  justify-content: space-around;
+  height: 135rpx;
+  width: 100%;
+  /* background-color: pink; */
+  margin: 50rpx 0 30rpx 0;
+}
+.fun-box {
+  position: relative;
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.fun-box:first-child {
+  background-color: #40d5c5;
+}
+.fun-box:nth-child(2) {
+  background-color: #3dcefa;
+}
+.fun-box:last-child {
+  background-color: #f6a926;
+}
+.fun-box .fun-box-title {
+  color: #fff;
+  font-size: 35rpx;
+  line-height: 135rpx;
+  letter-spacing: 5rpx;
+}
+.fun-box image {
+  position: absolute;
+  right: -30px;
+  bottom: -18px;
+  width: 150rpx;
+  height: 200rpx;
+  opacity: 0.3;
+}
+/* 快捷入口样式 */
+.quick-entry {
+  display: flex;
+  justify-content: space-around;
+  height: 200rpx;
+  width: 100%;
+  background-color: #fff;
+  margin: 20rpx 0;
+}
+.entry-box {
+  height: 80%;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background-color:pink; */
+  margin-top: 20rpx;
+  border-right: 1px solid #eaeaea;
+}
+.entry-box image {
+  width: 45rpx;
+  height: 45rpx;
+}
+.entry-box .entry-text {
+  color: #888;
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  letter-spacing: 6rpx;
+}
+/* 活动一览 */
+.activity {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 30rpx;
+}
+.activity-top {
+  height: 100rpx;
+  width: 95%;
+  margin: 0 auto;
+}
+.activity-title {
+  color: #000;
+  font-size: 38rpx;
+  font-weight: 700;
+}
+.activity-item {
+  display: flex;
+  width: 95%;
+  height: 200rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #eaeaea;
+}
+.activity-item image {
+  width: 200rpx;
+  height: 180rpx;
+}
+.activity-item-content {
+  height: 100%;
+  width: 80%;
+  position: relative;
+  padding-left: 30rpx;
+}
+.activity-item-content-title {
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.activity-item-content-bottom {
+  width: 95%;
+  position: absolute;
+  bottom: 20rpx;
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+}
+.activity-item-content-bottom text {
+  font-size: 22rpx;
+}
+.activity-item-content-bottom-textright {
+  float: right;
+}
+.activity-item-content-bottom-textright:before {
+  content: '';
+  display: inline-block;
+  margin-right: 10rpx;
+  width: 20rpx;
+  height: 20rpx;
+  background-image: url("https://s1.ax1x.com/2023/01/10/pSejbtK.png");
+  background-size: 100% 100%;
+}
+

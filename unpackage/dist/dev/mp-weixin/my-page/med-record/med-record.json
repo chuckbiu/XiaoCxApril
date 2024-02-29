@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-calendar": "/wxcomponents/vant/calendar/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+    "van-datetime-picker": "/wxcomponents/vant/datetime-picker/index",
+    "vant-dialog": "/wxcomponents/vant/dialog/index"
+  }
+}

@@ -1,0 +1,1 @@
+<view><view class="center"><image src="../../static/success/success.png" mode></image><view class="center-title"><text>预订成功</text></view><view class="center-dark"><text>您的订单已经生成，将马上为您安排服务</text></view><view class="back-btn"><button data-event-opts="{{[['tap',[['gotoOrderList']]]]}}" bindtap="__e">查看订单</button></view></view></view>

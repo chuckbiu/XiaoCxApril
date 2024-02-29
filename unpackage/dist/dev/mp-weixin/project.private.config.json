@@ -1,0 +1,113 @@
+{
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "分类",
+                    "pathName": "pages/classify/classify",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "档案",
+                    "pathName": "pages/archives/archives",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "活动详情",
+                    "pathName": "subpkg/activity_detail/activity_detail",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "我的",
+                    "pathName": "pages/my/my",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "分类",
+                    "pathName": "pages/classify/classify",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "服务列表页",
+                    "pathName": "subpkg/service_list/service_list",
+                    "query": "text=开锁&cityCode=1894",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "服务详情页",
+                    "pathName": "subpkg/service_detail/service_detail",
+                    "query": "service={\"address\":\"兴海中路与爱华东路交叉口北400米\",\"business\":{\"keytag\":\"保洁清洗\",\"tel\":\"15298910560\",\"rectag\":\"保洁清洗\"},\"distance\":\"\",\"pcode\":\"460000\",\"adcode\":\"469002\",\"pname\":\"海南省\",\"cityname\":\"琼海市\",\"type\":\"公司企业;公司;公司\",\"photos\":[{\"title\":\"\",\"url\":\"http://store.is.autonavi.com/showpic/2c6fed797fcdf7f569879a25fd204f19\"}],\"typecode\":\"170200\",\"adname\":\"琼海市\",\"citycode\":\"1894\",\"name\":\"无忧物业保洁有限公司\",\"location\":\"110.482300,19.245270\",\"id\":\"B0FFJ01MQB\"}",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "用药记录",
+                    "pathName": "my-page/med-record/med-record",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "添加用药记录",
+                    "pathName": "my-page/add-record/add-record",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "关爱家人",
+                    "pathName": "my-page/careful-family/careful-family",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "房型预订",
+                    "pathName": "home-page/home-order/home-order",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "房型预订详情页",
+                    "pathName": "home-page/home-detail/home-detail",
+                    "query": "homeItem={\"homeImg\":\"https://s1.ax1x.com/2023/02/10/pSf41Vf.jpg\",\"homeType\":\"高级大床房\",\"homeTraits\":[\"58m²\",\"大床\",\"有窗\",\"双早\"],\"homePrice\":\"￥666\",\"homeDescribes\":\" 君胜国际大酒店是由君胜投资集团投资1.2亿元人民币，按照国家四星级标准兴建的集商务、会议、住宿、娱乐于一体的综合性商务酒店。酒店位于鄂尔多斯市铁西区黄金地段，与东胜区政府毗邻，地理位置优越，交通便捷。酒店外观设计独特，富有浓郁的现代气息，总建筑面积为18000平方米。酒店设施豪华，功能齐全，同时设有大型户外和地下停车场，方便您的爱车停泊。\",\"homeFacility\":[\"免费wifi\",\"有线宽带\",\"冰箱\",\"泳池\",\"电视\",\"健身\",\"停车场\",\"餐饮\"]}",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "我的订单页面",
+                    "pathName": "my-page/order_list/order_list",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "预订成功页面",
+                    "pathName": "success-page/success/success",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "libVersion": "2.29.2",
+    "setting": {
+        "urlCheck": true,
+        "compileHotReLoad": true
+    },
+    "projectname": "wellness2.0"
+}

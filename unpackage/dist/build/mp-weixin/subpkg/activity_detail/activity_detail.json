@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "活动详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-divider": "/wxcomponents/vant/divider/index",
+    "van-button": "/wxcomponents/vant/button/index"
+  }
+}

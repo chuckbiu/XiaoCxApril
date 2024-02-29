@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "mylogin": "/components/my-login/my-login"
+  }
+}

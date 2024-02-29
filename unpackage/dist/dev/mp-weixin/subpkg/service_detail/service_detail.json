@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "服务详情页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index"
+  }
+}
